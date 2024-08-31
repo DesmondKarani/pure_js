@@ -1,4 +1,7 @@
 const {reverseArray} = require('./reverseArray');
-let array = ["you", "are", "great", "my", "friend"]
+const {countOccurrences} = require('./countElements')
+
+let array = ["you", "are", "are", "great", "my", "friend"]
 
 console.log(reverseArray(array));
+countOccurrences(array,"are");
