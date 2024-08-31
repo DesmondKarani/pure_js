@@ -6,6 +6,7 @@ function countOccurrences(array, e){
 		if (e === array[i])
 			count++;
 	}
+	//log the result
 	console.log(e, count);
 }
 module.exports = {countOccurrences};
