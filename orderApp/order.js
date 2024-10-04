@@ -83,3 +83,87 @@ while (true){
     continue;
   }
 }
+
+//providing the cost of what the client prefers
+switch (options){
+	case `breakfast`:
+		let answer = prompt(`preference? `);
+		switch (answer){
+			case `Kenyan Breakfast`:
+				console.log(`that will be KES110`);
+				break;
+			case `English Breakfast`:
+				console.log(`that will be KES350`);
+				break;
+			case `Pancake Delight`:
+				console.log(`that will be KES270`);
+				break;
+			case `Omelette Special`:
+				console.log(`that will be KES250`);
+				break;
+			case `Fruit Platter`:
+				console.log(`that will be KES200`);
+				break;
+		}
+		break;
+	case `lunch`:
+		let answer2 = prompt(`preference? `);
+		switch (answer2){
+			case `Githeri`:
+				console.log(`that will be KES230`);
+				break;
+			case `Beef Stew`:
+				console.log(`that will be KES350`);
+				break;
+			case `Fried Fish`:
+				console.log(`that will be KES450`);
+				break;
+			case `Chicken Pilau`:
+				console.log(`that will be KES400`);
+				break;
+			case `Vegetable Curry`:
+				console.log(`that will be KES300`);
+				break;
+		}
+		break;
+	case `refreshment`:
+		let answer3 = prompt(`preference? `);
+		switch (answer3){
+			case `Juices per glass`:
+				console.log(`that will be KES150`);
+				break;
+			case `Smothie`:
+				console.log(`that will be KES180`);
+				break;
+			case `Milkshake`:
+				console.log(`that will be KES200`);
+				break;
+			case `Iced Coffee`:
+				console.log(`that will be KES170`);
+				break;
+			case `Herbal Tea`:
+				console.log(`that will be KES120`);
+				break;
+		}
+		break;
+	case `alcohol`:
+		let answer4 = prompt(`preference? `);
+		switch (answer4){
+			case `Everything Alcohol`:
+				console.log(`that will be KES300`);
+				break;
+			case `Cocktails`:
+				console.log(`that will be KES350`);
+				break;
+			case `Local Beers`:
+				console.log(`that will be KES200`);
+				break;
+			case `Wines`:
+				console.log(`that will be KES400`);
+				break;
+			case `Spirits`:
+				console.log(`that will be KES450`);
+				break;
+		}
+		break;
+}
